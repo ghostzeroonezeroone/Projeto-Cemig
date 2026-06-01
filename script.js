@@ -9,7 +9,7 @@ const navLinks = document.querySelectorAll('.nav-link');
 const scrollTop = document.querySelector('.scroll-top');
 
 // ================================
-// MENU HAMBURGER
+// MENU HAMBURGUER
 // ================================
 
 hamburger.addEventListener('click', () => {
@@ -33,7 +33,7 @@ document.addEventListener('click', (e) => {
 });
 
 // ================================
-// SCROLL TO TOP
+// VOLTAR AO TOPO
 // ================================
 
 window.addEventListener('scroll', () => {
@@ -50,7 +50,7 @@ scrollTop.addEventListener('click', (e) => {
 });
 
 // ================================
-// FORM SUBMISSION
+// ENVIO DO FORMULÁRIO
 // ================================
 
 const contactForm = document.querySelector('.contact-form');
@@ -78,7 +78,7 @@ if (contactForm) {
 }
 
 // ================================
-// NEWSLETTER FORM
+// FORMULÁRIO DE INSCRIÇÃO NA NEWSLETTER
 // ================================
 
 const newsletterForm = document.querySelector('.newsletter-form');
@@ -95,7 +95,7 @@ if (newsletterForm) {
 }
 
 // ================================
-// PRODUTOS - ADICIONAR AO CARRINHO
+// NFORMAÇÕES
 // ================================
 
 const addToCartButtons = document.querySelectorAll('.btn-small');
@@ -122,7 +122,7 @@ addToCartButtons.forEach((btn, index) => {
 });
 
 // ================================
-// SMOOTH SCROLL PARA LINKS INTERNOS
+// SCROLL LISO PARA LINKS INTERNOS
 // ================================
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -140,7 +140,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ================================
-// ANIMAÇÕES AO SCROLL
+// ANIMAÇÕES DE SCROLL
 // ================================
 
 const observerOptions = {
@@ -179,7 +179,7 @@ document.querySelectorAll('.blog-card').forEach((card, index) => {
 });
 
 // ================================
-// CONTADORES (Stats)
+// CONTADORES
 // ================================
 
 const stats = document.querySelectorAll('.stat h4');
@@ -320,7 +320,7 @@ const validateForm = (form) => {
 };
 
 // ================================
-// LISTENERS DE RESIZE RESPONSIVO
+// OUVINTES DE REDIMENSIONAMENTO RESPONSIVO
 // ================================
 
 window.addEventListener('resize', () => {
@@ -355,7 +355,7 @@ if ('IntersectionObserver' in window) {
 }
 
 // ================================
-// SERVICE WORKER (PWA)
+// TRABALHADOR DE SERVIÇO
 // ================================
 
 if ('serviceWorker' in navigator) {
