@@ -5,14 +5,14 @@
 :root {
     --primary-green: #2d7c3e;
     --secondary-green: #4a9d5f;
-    --light-green: #a8d5a8;
-    --very-light-green: #e8f5e9;
+    --light-green: #262626;
+    --very-light-green: #0f0f0f;
     --dark-green: #1b5e2a;
     --accent-gold: #d4a574;
-    --text-dark: #2c3e50;
+    --text-dark: #ffffff;
     --text-light: #7f8c8d;
-    --white: #ffffff;
-    --border-color: #ecf0f1;
+    --white: #1f1f1f;
+    --border-color: #000000;
     --shadow-sm: 0 2px 8px rgba(45, 124, 62, 0.1);
     --shadow-md: 0 4px 16px rgba(45, 124, 62, 0.15);
     --shadow-lg: 0 8px 24px rgba(45, 124, 62, 0.2);
